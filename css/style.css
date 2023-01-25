@@ -1,0 +1,62 @@
+.world::first-line{
+	color:red;
+	font-size:30px;
+	font-variant:small-caps;
+}
+
+.world1::first-letter{
+	color:blue;
+	font-size:xx-large;
+}
+
+
+.bird::before {
+	content:url('https://images.all-free-download.com/images/graphicwebp/goa_small_bird_202958.webp');
+}
+
+.small::after{
+	content:url('https://images.pexels.com/photos/1289845/pexels-photo-1289845.jpeg?auto=compress&cs=tinysrgb&w=600');
+}
+
+.box:focus{
+	color:yellow;
+	background-color:green;
+}
+
+.self:hover{color:red;
+	background-color:teal;
+}
+
+a:visited{
+	color:black;
+}
+
+.link:link{
+	color:red;
+}
+
+.s1::selection{
+	color:yellow;
+	background-color:blue;
+}
+
+.look{
+	color:white;
+    background-color:#C3ACD0;
+}
+
+.look2{
+	background-color:#F7EFE5;
+}
+
+.insta,.whats,.fb:active{
+	background:greenyellow;
+	
+}
+
+.box1:invalid{
+	border:2px solid red;
+}
+	
+
+
